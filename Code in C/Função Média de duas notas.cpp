@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<locale.h>
 #include<math.h>
-//Funçõa Média de duas notas.
-	float media(float n1, float n2, float n3)
+//FunÃ§Ãµa MÃ©dia de duas notas.
+	float media(float n1, float n2, float n3)//Estabelecendo a filuncao para a media e valores.
 	{
 		return(n1+n2+n3)/3;
 	}
@@ -17,6 +17,6 @@
 			printf("Insira a sua nota N3: ");
 				scanf("%f", &n3);
 		resultado = media(n1, n2, n3);
-			printf("A média é: %f\n", resultado);
+			printf("A mÃ©dia Ã©: %f\n", resultado);
 		return 0;	
 	}
