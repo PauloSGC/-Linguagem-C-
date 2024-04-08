@@ -1,15 +1,15 @@
 #include<stdio.h>
 #include<locale.h>
-//Função:Quadrado de um número
-	int quad(int a){
+//FunÃ§Ã£o:Quadrado de um nÃºmero
+	int quad(int a){//FunÃ§Ã£o para multiplicaÃ§Ã£o
 	return a*a;
 	}
-		int main(){
+		int main(){//FuncÃ£o principal 
 			setlocale(LC_ALL, "Portuguese");
-			int num1, resultado;
-				printf("Insira um número para ser multiplicado pelo mesmo: ");
+			int num1, resultado;//VariÃ¡veis 
+				printf("Insira um nÃºmero para ser multiplicado pelo mesmo: ");
 				scanf("%d", &num1);
-		resultado = quad(num1);//Chamar a função...
-		printf("O quadrado do número é: %d\n", resultado);
+		resultado = quad(num1);//Chamar a funÃ§Ã£o
+		printf("O quadrado do nÃºmero Ã©: %d\n", resultado);
 		return 0;	
 	}
