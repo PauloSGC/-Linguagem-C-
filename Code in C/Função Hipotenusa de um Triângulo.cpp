@@ -3,7 +3,7 @@
 #include <math.h>
 //Função Hipotenusa de um Triângulo
 	float hipotenusa (float cateto1, float cateto2)//Declarar o tipo da minha função "flaot", e as variáveis também.
-    {
+        {
 	return sqrt(cateto1 * cateto1 + cateto2 * cateto2);//Após o dado recebido, retornará e efetuará a operação.
 	}
 	int main(){
