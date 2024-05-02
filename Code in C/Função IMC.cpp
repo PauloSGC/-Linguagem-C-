@@ -2,7 +2,7 @@
 #include <locale.h>
 #include <math.h>
 //Função IMC de uma pessoa.
-	float imc(float peso, float altura){//Estabelecendo a minha função.
+	float imc(float peso, float altura){
 		return peso/(altura*altura);//Definindo o retorno para executar a operação.
 	}
 	int main(){//Criando a minha função principal
