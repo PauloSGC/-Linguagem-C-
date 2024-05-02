@@ -2,7 +2,7 @@
 #include<locale.h>
 #include<math.h>
 //Funçõa Média de duas notas.
-	float media(float n1, float n2, float n3)//Estabelecendo a filuncao para a media e valores.
+	float media(float n1, float n2, float n3) //Estabelecendo a filuncao para a media e valores.
 	{
 		return(n1+n2+n3)/3;
 	}
