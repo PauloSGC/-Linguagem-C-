@@ -16,7 +16,7 @@
 				scanf("%f", &n2);
 			printf("Insira a sua nota N3: ");
 				scanf("%f", &n3);
-		resultado = media(n1, n2, n3);
+		        resultado = media(n1, n2, n3);
 			printf("A média é: %f\n", resultado);
 		return 0;	
 	}
